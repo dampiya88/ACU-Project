@@ -1,7 +1,7 @@
 -- Create user table (configured auto incrementing id , assumed that the database supports JSON data type
 --  user data is stored in JSON format in the userInfo column  (could be normalized to separate tables if needed)
-CREATE TABLE User (
-    id INT PRIMARY KEY,
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
     userInfo JSON
 );
 
